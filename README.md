@@ -1,1 +1,1 @@
-# -fakestoreapi
+# fakestoreapi
