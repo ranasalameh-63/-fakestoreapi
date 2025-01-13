@@ -1,0 +1,154 @@
+:root {
+    --main-color: #1e1e1e;
+    /* --secondary-color: #272727;
+    --text-color: #e0e0e0;
+    --accent-color: #4caf50;
+    --box-shadow-color: rgba(0, 0, 0, 0.7); */
+ --main-transition: 0.3s;
+     --main-padding-top: 40px;
+     --main-padding-bottom: 100px;
+     /* --section-background: #ececec; */
+
+  }
+
+
+body{
+    background-color: rgb(219, 235, 244) ;
+    background-size: cover;                 
+    background-repeat: no-repeat;       
+    background-attachment: fixed;         
+    background-position: center; 
+    font-family: 'Inknut Antiqua', serif;
+}
+.navbar .nav-link {
+    color: black !important;
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 18px;
+}
+.navbar{
+    box-shadow: 1px 1px 5px rgb(98, 190, 240);
+}
+.navbar .navbar-brand {
+    color: black !important;
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 25px;
+    margin-right: auto;
+    margin-left: 30px;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 30px; 
+}
+
+.nav-item:hover {
+    text-decoration:underline rgb(98, 190, 240); 
+}
+.Icon{
+background-color: black;
+}
+
+.nav-item {
+    padding: 10px 15px;
+}
+
+/* إضافة بعض الحشو بين العناصر */
+.nav-item {
+    padding: 10px 15px;
+}
+
+body {
+    font-family: 'Inknut Antiqua', serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* الحاوية الرئيسية */
+#container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* تصميم البطاقة */
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 15px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.card p {
+    margin: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+/* أزرار البطاقة */
+.card button {
+    margin: 10px 5px;
+}
+.update-btn {
+    background-color: #81b6ef;
+    color: #fff;
+}
+.delete-btn {
+    background-color: #e7162b;
+    color: #fff;
+}
+
+.footer {
+    margin-top: 100px;
+    background-color: #000;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    font-family: 'Inknut Antiqua', serif;
+}
+.footer .links a, .footer .social-icons a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+.footer .links a:hover, .footer .social-icons a:hover {
+    color: rgb(98, 190, 240);
+}
+.social-icons i {
+    font-size: 24px;
+    margin: 0 10px;
+    color: rgb(98, 190, 240);
+    margin-top: 25px;
+}
+.social-icons :hover{
+    color: white;
+}
+@media (min-width: 400px) and (max-width: 1024px) {
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
